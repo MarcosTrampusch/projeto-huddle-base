@@ -1,0 +1,35 @@
+@media (max-width: 425px) {
+    header {
+        margin-left: 0;
+    }
+
+    .imagem-header {
+        max-width: 50%;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .imagem-landing img {
+        width: 80%;
+        margin-left: 35px;
+    }
+
+    .content {
+        width: 80%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .content h1{
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    footer {
+        justify-content: center;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}

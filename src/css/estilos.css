@@ -1,0 +1,77 @@
+body {
+  font-family: sans-serif;
+  color: white;
+  min-height: 100vh;
+  background: url(../images/bg-desktop.svg) hsl(257, 40%, 49%) center center/cover no-repeat;
+}
+
+header {
+  padding: 2rem;
+  margin-left: 9rem;
+}
+
+.imagem-header {
+  max-width: 15%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+main .imagem-landing img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 5px;
+}
+
+main .content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  max-width: 400px;
+  margin-bottom: 120px;
+}
+
+.content h1 {
+  line-height: 50px;
+}
+
+.content p {
+  line-height: 20px;
+  font-weight: 400;
+}
+
+a.btn {
+  padding: 15px 70px;
+  width: 205px;
+  background: white;
+  color: blue;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) transition: 1s ease-in-out;
+}
+
+a.btn:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-right: 50px;
+}
+
+footer a i {
+  color: #fff;
+  transition: 1s ease-in-out;
+  font-size: 1.6rem;
+}
+
+i:hover {
+  color: hsl(300, 69%, 71%);
+}
