@@ -1,35 +1,51 @@
-@media (max-width: 425px) {
-    header {
-        margin-left: 0;
-    }
-
-    .imagem-header {
-        max-width: 50%;
+@media(max-width:760px) {
+    header .logo{
+        width: 250px;
+        margin: auto;
     }
 
     main {
-        flex-direction: column;
+        display: block;
+        margin-top: 20px;
     }
 
-    .imagem-landing img {
-        width: 80%;
-        margin-left: 35px;
+    main img.mockup {
+        width: 700px;
     }
 
-    .content {
-        width: 80%;
-        text-align: center;
+    main .info {
+        margin: auto;
+        margin-top: 40px;
         align-items: center;
+        text-align: center;
+        gap: 20px;
+        font-size: 15px;
     }
 
-    .content h1{
-        font-size: 25px;
-        line-height: 41px;
+    .info a{
+        margin-top: 15px;
     }
 
-    footer {
-        justify-content: center;
-        margin-bottom: 30px;
-        width: 100%;
+    footer{
+        margin: 30px;
+    }
+}
+
+@media(max-width:360px){
+    header .logo{
+        width: 250px;
+    }
+
+    main img.mockup{
+        width: 300px;
+    }
+
+    main .info{
+        margin-right: 25px;
+        font-size: 13px;
+    }
+
+    .info a{
+        margin-top: 10px;
     }
 }
